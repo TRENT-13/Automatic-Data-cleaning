@@ -281,14 +281,6 @@ The implemented solution handles these issues by:
 
 ## Limitations
 1. The system currently only implements mean imputation for missing values
-2. The analysis relies on the data provided and cannot verify external validity
-3. Some chain implementations show warnings about deprecated features
-4. LLM responses may vary based on the specific version and configuration
+2. no reasearch, can get API for the browser
+3. prompt matters, i wrote 2 prommpt chains, while they are doing differnt things, procces differs in the same step, both of them had to do infernce step
 
-## Future Enhancements
-1. Implement more sophisticated imputation methods (e.g., regression-based, KNN)
-2. Add visualization capabilities for trend analysis
-3. Incorporate statistical testing to validate trends and correlations
-4. Expand the agent with more specialized analytical functions
-5. Add support for downloading and processing multiple datasets
-6. Implement time series forecasting for crime prediction
