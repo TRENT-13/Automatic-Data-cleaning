@@ -34,10 +34,11 @@ from langchain_community.document_loaders import CSVLoader
 The project follows this logical structure:
 1. **Data Loading**: Load crime statistics from 'reported.csv'
 2. **API Configuration**: Set up Google Gemini API connection
-3. **Data Exploration**: Analyze and summarize the dataset structure
-4. **Data Processing**: Document-based extraction and cleaning
-5. **Analysis Chains**: Create LLM-based analysis chains for crime data insights
-6. **Agent Implementation**: Build a CrimeDataAgent to streamline interactions
+3. **Prediction**: predict the trends in the data, using logistic regression
+4. **Data Exploration**: Analyze and summarize the dataset structure
+5. **Data Processing**: Document-based extraction and cleaning
+6. **Analysis Chains**: Create LLM-based analysis chains for crime data insights
+7. **Agent Implementation**: Build a CrimeDataAgent to streamline interactions
 
 ## Dataset Description
 The dataset contains crime statistics spanning from 1950 to 2015 with the following details:
